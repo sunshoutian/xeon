@@ -59,7 +59,7 @@ func main() {
     	ctx.Next()
     })
     
-    // app.Done(func(ctx context.Context) {]})
+    // app.Done(func(ctx context.Context) {})
     
     // Method POST: http://localhost:8080/decode
     app.Post("/decode", func(ctx context.Context) {
@@ -136,4 +136,13 @@ func createUser(ctx context.Context) {
 }
 ```
 
-> Psst: Wanna go to [_examples](https://github.com/radicalmind/xeon/tree/_examples) to see more code-snippets?
+> Psst: Wanna go to [_examples](https://github.com/radicalmind/xeon/tree/master/_examples) to see more code-snippets?
+
+
+## Support
+
+- [Post](https://github.com/radicalmind/xeon/issues) a feature request or report a bug, will help to make the framework even better
+- :star: and watch [the project](https://github.com/radicalmind/xeon/stargazers), will notify you about updates
+- :earth_americas: publish [an article](https://medium.com/) or share a [tweet](https://twitter.com/) about Xeon
+
+Thanks in advance!

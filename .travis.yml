@@ -4,6 +4,7 @@ os:
   - osx
 go:
   - go1.8
+  - tip
 go_import_path: github.com/radicalmind/xeon
 # before_install:
 #   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install libgtk-3-dev libappindicator3-dev          ; fi
